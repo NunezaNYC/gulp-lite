@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/powersimple/gulp-lite.git"
+    "url": "git+https://github.com/NunezaNYC/gulp-lite.git"
   },
   "keywords": [
     "Wordpress Theme",
     "Gulp",
     "NodeJS"
   ],
-  "author": "Ben Erwin",
+  "author": "Anthony Nunez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/powersimple/gulp-lite/issues"
+    "url": "https://github.com/NunezaNYC/gulp-lite.git"
   },
-  "homepage": "https://github.com/powersimple/gulp-lite#readme",
+  "homepage": "https://github.com/NunezaNYC/gulp-lite.git",
   "devDependencies": {
     "@gulp-sourcemaps/identity-map": "github:gulp-sourcemaps/identity-map",
     "browser-sync": "^2.23.5",
