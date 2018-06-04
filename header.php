@@ -59,3 +59,72 @@
 
 	<div class="site-content-contain">
 		<div id="content" class="site-content">
+		.menu-bar {
+  position: relative;
+  left: -5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: spaces-between;
+  background: #fffff
+    ;
+  height: 60px;
+  width: 105.4%;
+  margin-top: 50px;
+}
+
+.menu-item-container {
+  display: flex;
+  width: 40%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+
+.menu-item {
+  position: relative;
+  height: 30%;
+  flex-grow: 1;
+  border-left: 1px solid #999999;
+  align-self: center;
+  text-align: center;
+  transition: flex-grow 0.25s ease-out;  
+}
+
+.menu-item a{
+  position: relative;
+  bottom: 30%;
+  color: #dddddd;
+  text-decoration: none;
+  font-size: 20px;
+  transition: font-size 0.25s ease-out, font-weight 0.1s ease-out, bottom 0.25s ease-out;
+}
+
+.menu-item:first-child {
+  border-left: 0px;
+}
+
+.menu-item:hover {
+  flex-grow: 1.5;
+}
+
+.menu-item:hover > a {
+  color: #ffffff;
+  font-size: 26px;
+  bottom: 60%;
+  font-weight: bold;
+}
+
+.menu-bar-border-top {
+  background: #eeeeee;
+  height: 4px;
+  width: 100%;
+  box-shadow: 0px 2px #666666;
+}
+
+.menu-bar-border-bottom {
+  background: #eeeeee;
+  height: 4px;
+  width: 100%;
+  box-shadow: 0px -2px #666666;
+}
